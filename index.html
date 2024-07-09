@@ -12,54 +12,20 @@
 <body>
     <h3>Rock Paper Scissor</h3>
     <button onclick="
-    userInput = 'rock'
-    randomNum = Math.round(Math.random() * 2);
-    Choice = ['rock', 'paper', 'scissor'];
-    randomChoice = Choice[randomNum];
-     if (randomChoice === 'rock'){
-        alert(`Tie ${randomChoice}`)
-     }else if (randomChoice === 'paper'){
-        alert(`you loss ${randomChoice}`)
-     }else{
-        alert(`you win ${randomChoice}`)
-     }
-    
+    userInput = 'rock';
+    RPSGame(userInput);
     ">Rock</button>
     <button onclick="
-    userInput = 'paper'
-    randomNum = Math.round(Math.random() * 2);
-    Choice = ['rock', 'paper', 'scissor'];
-    randomChoice = Choice[randomNum];
-     if (randomChoice === 'rock'){
-        alert(`you win ${randomChoice}`)
-     }else if (randomChoice === 'paper'){
-        alert(`Tie ${randomChoice}`)
-     }else{
-        alert(`you loss ${randomChoice}`)
-     }
-    
+    userInput = 'paper';
+    RPSGame(userInput);
     ">Paper</button>
     <button onclick="
-    userInput = 'scissor'
-    randomNum = Math.round(Math.random() * 2);
-    Choice = ['rock', 'paper', 'scissor'];
-    randomChoice = Choice[randomNum];
-     if (randomChoice === 'rock'){
-        alert(`you loss ${randomChoice}`)
-     }else if (randomChoice === 'paper'){
-        alert(`you win ${randomChoice}`)
-     }else{
-        alert(`Tie ${randomChoice}`)
-     }
-    
+   userInput = 'scissor';
+   RPSGame(userInput);
     ">Scissor</button>
 
 
     <script src="script/script.js">
-        let userInput;
-        let randomNum;
-        let Choice;
-        let randomChoice;
     </script>
 </body>
 
