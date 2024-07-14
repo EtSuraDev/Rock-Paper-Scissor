@@ -1,3 +1,40 @@
 body {
     padding-left: 7px;
+    background: rgb(27, 27, 27);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bb {
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 9999px;
+    padding: 30px;
+    margin-left: 9px;
+}
+
+button img {
+    width: 50px;
+    background: transparent;
+}
+
+#reset {
+    background: white;
+    padding: 7px 14px;
+    border: none;
+}
+
+.first {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.second img {
+    width: 50px;
+}
+
+.second {
+    margin-bottom: 70px;
 }
